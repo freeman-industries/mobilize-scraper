@@ -1,0 +1,53 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+
+	"files.exclude": {
+		"**/.git": true,
+		"**/.DS_Store": true,
+		"**/node_modules": true
+	},
+
+	"files.watcherExclude": {
+		"**/node_modules": true
+	},
+
+	"search.exclude": {
+		"**/node_modules": true
+	},
+
+	"files.associations": {
+		"*.env*": "shellscript"
+	},
+
+	"editor.formatOnSave": false,
+	"javascript.format.enable": false,
+	"eslint.autoFixOnSave": true,
+
+	"javascript.validate.enable": false,
+
+	// disable auto formatting in EJS email templates
+	"[ejs]": {
+		"editor.formatOnSave": false,
+		"javascript.format.enable": false,
+		"eslint.autoFixOnSave": false,
+	},
+
+	"[json]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace",
+		"editor.formatOnSave": true,
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+
+	"emmet.excludeLanguages": [
+		"ejs"
+	],
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+}

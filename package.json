@@ -1,0 +1,23 @@
+{
+  "name": "mobilize-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes users from Mobilize and saves as a CSV compatible with Google Contacts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "csv": "node csv.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fs-extra": "^9.1.0",
+    "vcf": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3"
+  }
+}
